@@ -13,8 +13,6 @@ Copy file cheat.plg to /plugin/0004000000126300/ in microsd card, boot to NTR an
 Download:
 https://mega.nz/#!JE43zBjY!rf3BU8Kk7Rsp6-J9MzLUEgDICIZRMqp1GbtkdlLuCYs
 
-I can provide the source code if anyone interested in modify the plugin's behaviours and features
-
 Credits:
 - NTR CFW by cell9 and companions
 - Zelda ALBW cheat plugin by cell9
