@@ -78,6 +78,10 @@ int checkPointerValid(pointer){
 
 u32 cheatEnabled = 0;
 int isNewNtr = 0;
+u8 longswordGauge = 0;
+u32 pointer0 = 0x081C7D00;
+u32 pointer1 = 0;
+u32 start_offset = 0;
 
 void gamePluginEntry() {
 	u32 ret, key;
@@ -110,13 +114,26 @@ void gamePluginEntry() {
 			waitKeyUp();
 		}
 		if (cheatEnabled) {
-			u32 pointer0 = 0x081C7D00;
-			u32 pointer1 = READU32(pointer0);
+			pointer1 = READU32(pointer0);
 			if (checkPointerValid(pointer1)){
-				u32 start_offset = READU32(pointer1 + 0xE28) - 0x14030;
+				start_offset = READU32(pointer1 + 0xE28) - 0x14030;
 				if (checkPointerValid(start_offset)){
 					int i = 0;
+					//monsterHP
 					monsterHP = READU16(start_offset + 0x14418);
+					//Sharpness
+					WRITEU16(start_offset + 0x94C6,0x1C2);
+					WRITEU16(start_offset + 0x94C4,0x1C2);
+					//Stamina
+					WRITEU16(start_offset + 0x11E,0x4461);
+					WRITEU16(start_offset + 0x122,0x4461);
+					//Long Sword
+					longswordGauge = READU8(start_offset + 0x134);
+					if (longswordGauge != 0){
+						WRITEU8(start_offset + 0x134,0x64);
+						WRITEU8(start_offset + 0x136,0x03);
+					}
+					//Item
 					for (i = 0;i < 32;i++){
 						if (i == 8){
 							if (monsterHP != 0){
@@ -129,6 +146,7 @@ void gamePluginEntry() {
 						}
 						start_offset = start_offset + 4;
 					}
+					
 				}else{
 					cheatEnabled = 0;
 				}	

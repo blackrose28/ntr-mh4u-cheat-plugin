@@ -1,0 +1,425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"active",
+				"active_menu"
+			],
+			[
+				"ac",
+				"active_menu"
+			],
+			[
+				"cam",
+				"campaigns"
+			],
+			[
+				"pu",
+				"publisher_icon"
+			],
+			[
+				"p",
+				"publisher_icon"
+			],
+			[
+				"li",
+				"list-menu"
+			],
+			[
+				"f",
+				"f-t"
+			],
+			[
+				"co",
+				"col-title"
+			],
+			[
+				"c-",
+				"c-margin-left"
+			],
+			[
+				"na",
+				"nav-ele"
+			],
+			[
+				"no",
+				"notify-cash"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"noti",
+				"notify-item"
+			],
+			[
+				"notify",
+				"notify-alert"
+			],
+			[
+				"dir",
+				"__dirname"
+			],
+			[
+				"rel",
+				"rel_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/gameplg.c",
+			"settings":
+			{
+				"buffer_size": 1252,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/3DS/NTR Cheat Plugin/Zelda",
+		"/D/3DS/NTR Cheat Plugin/Zelda/Debug",
+		"/D/3DS/NTR Cheat Plugin/Zelda/include",
+		"/D/3DS/NTR Cheat Plugin/Zelda/obj/Win32",
+		"/D/3DS/NTR Cheat Plugin/Zelda/source"
+	],
+	"file_history":
+	[
+		"/D/3DS/NTR Cheat Plugin/ntr_mh4u/source/main.c",
+		"/D/3DS/NTR Cheat Plugin/ntr_mh4u/source/entry.c",
+		"/D/3DS/NTR Cheat Plugin/ntr_helloworld-master/source/bootloader.s",
+		"/D/3DS/NTR Cheat Plugin/ntr_helloworld-master/build.bat",
+		"/D/devkitPro/msys/1.0/home/Vitcon/ntr_helloworld-master/build.py",
+		"/D/3DS/NTR Cheat Plugin/ntr_helloworld-master/build.py",
+		"/D/devkitPro/msys_bk/msys.bat",
+		"/D/3DS/NTR Cheat Plugin/ntr_helloworld-master/homebrew.map",
+		"/D/3DS/NTR Cheat Plugin/ntr_helloworld-master/README.md",
+		"/D/3DS/NTR Debugger/ntrclient/python/Lib/ntpath.py",
+		"/D/3DS/NTR Debugger/ntrclient/python/Lib/nntplib.py",
+		"/D/3DS/NTR Debugger/ntrclient/search.py",
+		"/D/VITAHack/56414C48414C4C41204B4E4947485453.xpd",
+		"/D/VITAHack/4C6F636F526F636FE284A2204D69646E69676874204361726E6976616C2044656D6F.xpd",
+		"/D/VITA Hack/417065205175657374E284A220505350C2AE2053746172746572205061636B.xpd",
+		"/D/VITA Hack/506F6F6C2048616C6C2050726FE284A2.xpd",
+		"/D/VITA Hack/35x Custom Bubbles/Include your Data and add it in your app.db - Copy.txt",
+		"/D/Work/jQuery-Timepicker-Addon/dist/i18n/jquery-ui-timepicker-addon-i18n.js",
+		"/C/Program Files/Redis/redis.windows-service.conf",
+		"/D/PSP/cheat.db",
+		"/D/Setup/Hex Workshop Professional 6.7.0.5247 + keygen-embrace/Hex.Workshop.Professional.6.7.0.5247/embrace.nfo",
+		"/C/Users/Vitcon/Desktop/MH4U.ahk",
+		"/D/Games/Mass Effect Complete Edition/Binaries/reloaded.nfo",
+		"/D/PS3/psnpatch 2015.7A/psnpatch.cfg",
+		"/D/3DS/MH4U/mhef-master/mhef/n3ds.py",
+		"/D/3DS/MH4U/mhef-master/examples/n3ds/savedata.py",
+		"/D/3DS/MH4U/mhef-master/README",
+		"/D/GBA/GBA-CHEATS/2348 - Yggdra Union (JP).cht",
+		"/C/Users/Vitcon/Downloads/Borderlands The Pre-Sequel v 1.0.6/h4x0r.nfo",
+		"/D/Games/The Incredible Adventures of Van Helsing III/Cfg/Artifact/artifacts.cfg",
+		"/D/Games/The Incredible Adventures of Van Helsing III/Cfg/Artifact/enchantments.cfg",
+		"/F/Games/Borderlands.The.Pre.Sequel.Update.v1.0.6.Incl.DLC-RELOADED/reloaded.nfo",
+		"/D/Games/Borderlands GOTY Edition/BReWErS.nfo",
+		"/C/Users/Vitcon/Downloads/Borderlands The Pre-Sequel v1.0.6 Trainer-h4x0r/Borderlands The Pre-Sequel v 1.0.6/h4x0r.nfo",
+		"/D/Games/Borderlands GOTY Edition/h4x0r.nfo",
+		"/F/Games/Need For Speed Most Wanted Black Edition/Install Info.nfo",
+		"/C/Users/Vitcon/Documents/My Games/Far Cry 4/GamerProfile.xml",
+		"/D/Work/sohalauncher/SohaLauncher/SohaLauncher.csproj",
+		"/E/CheatMaster/CMF/ULES-00176--Tales of Eternia.cmf",
+		"/E/CheatMaster/CHEAT.DB",
+		"/D/PSP/CWcheat_DBE_v2.0/cheat.db",
+		"/D/PSP/CWcheat_DBE_v2.0/Knights in the Nightmare [U].cmf",
+		"/F/Games/Kung.Fu.Strike.The.Warriors.Rise-TiNYiSO/tinyiso.nfo",
+		"/F/Laptop/Vita/APP/ad0f07077fe1955c/PCSE00271/sce_sys/param.sfo",
+		"/E/CheatMaster/CMF/ULUS-10653--Class of Heroes .cmf",
+		"/C/Work/mysoha/models/oriento.js",
+		"/C/Work/mysoha/routes/test.js",
+		"/C/Work/mysoha/views/home.jade",
+		"/C/Work/mysoha/public/home.html",
+		"/C/Work/mysoha/views/index.jade",
+		"/F/CheatMaster/CMF/ULUS-10341--Warriors Orochi.cmf",
+		"/C/Users/Vitcon/Desktop/cheat",
+		"/F/CheatMaster/CMF/ULUS-10461--Disgaea 2- Dark .cmf",
+		"/C/Users/Vitcon/Downloads/PS3/CCCheater1.0.2/CheatsDB.ps3cheat",
+		"/C/Users/Vitcon/Documents/KOEI/Warriors OROCHI/inputmap1.dat",
+		"/D/DS/32164-catsfc/installation.txt",
+		"/D/DS/32346-tempgba/install_en.txt",
+		"/E/Games/Sacred/pwz.nfo",
+		"/E/Games/Silverfall/vitality.nfo",
+		"/D/GBA/GBA-CHEATS/0165 - Megaman Battle Network (US).cht",
+		"/D/GBA/cheat/0165.cht",
+		"/C/Users/Vitcon/Downloads/PS3/README.txt",
+		"/C/Game/ppsspp/memstick/PSP/Cheats/ULUS10479.ini",
+		"/D/CheatMaster/CMF/ULUS-10479--Lord of Arcana.cmf",
+		"/D/CheatMaster/CMF/ULUS-10479--Lord of Arcana [.cmf",
+		"/C/Users/Vitcon/Downloads/GBA/Summon Night - Swordcraft Story 2.sav",
+		"/C/Users/Vitcon/Downloads/PSP/cheat.db",
+		"/C/Game/ppsspp/memstick/PSP/Cheats/cheat.db",
+		"/D/CheatMaster/CMF/ULUS-10271--Radiant Mytholog.cmf",
+		"/D/CheatMaster/CMF/ULUS--Lord of Arcana.cmf",
+		"/D/CheatMaster/CMF/NPUH-10123--Unchained Blades.cmf",
+		"/C/Game/ppsspp/memstick/PSP/SAVEDATA/ULES0135300013000/PARAM.SFO",
+		"/G/WiiFlow/Codes/GFEE01.txt",
+		"/D/Store/my.reg",
+		"/D/Console/cb2util-1.7/cheats.txt",
+		"/D/Console/cb2util-1.7/cheatscb10.txt",
+		"/D/Games/Pro.Evolution.Soccer.2013.Proper-RELOADED/reloaded.nfo",
+		"/C/Work/mysoha/public/css/style.css",
+		"/C/Work/Control Center/Need to do",
+		"/C/Work/TestProject/Hoho.txt",
+		"/C/Work/TestProject/nah.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\3DS\\NTR Debugger\\ntrclient"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"memlayout",
+			"ARCA12345",
+			"ZHPU12345",
+			"ULUS10559",
+			"VFTP12345",
+			"FTPVita",
+			"UCJS10041",
+			"VHBL01234",
+			"VHBL",
+			"ZETT12345",
+			"ULUS10559",
+			"ANY_TITLE_ID_YOU_WANT",
+			"bow gun",
+			"monster hunter portable 3rd",
+			"monster hunter portable 3",
+			"monster hunter",
+			"Alchemy=.*\\n",
+			"Alchemy=",
+			"Essence",
+			"Knights in the",
+			"Mip",
+			"MIPS",
+			"##",
+			"Experience",
+			"Level",
+			"ninja gai",
+			"Lord of ar",
+			"B93",
+			"B92",
+			"B91",
+			"B90",
+			"Lord of ar",
+			"003",
+			"Lord of ar",
+			".hack",
+			"rebirth",
+			"hack",
+			".Hack GU Vol 2: Reminisce",
+			"image/",
+			"css/",
+			"js/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"UCJS10041",
+			"ARK_01234",
+			"ARCA12345",
+			"ZHPU12345",
+			"Z.H.P.: Unlosing Ranger VS Darkdeath Evilman",
+			"ULUS10559",
+			"VFTP12345",
+			"FTPVit",
+			"FTPVita",
+			"VHBL01234",
+			"UCJS10041",
+			"ULUS10559",
+			"Alchemy=1\\n",
+			"0F",
+			"",
+			"654",
+			"653",
+			"652",
+			"651",
+			"05A",
+			"/image/",
+			"/css/",
+			"/js/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/gameplg.c",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ntr_zelda.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 441.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
