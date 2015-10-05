@@ -6,6 +6,10 @@ Tested with BootNTR.cia (NTR 3.0), N3DS XL emunand 9.0 Gateway, MH4U US cia vers
 Features:
 - Set all items on first 3 pages of item pouch and gunner pouch. I ignore extra pouch because I just don't want crappy items add to storage each time I complete a hunt.
 - Display the first large monster's HP as first item's quantity in item pouch. Just set first item on lower screen item shortcut to view main monster's HP at all time during the hunt.
+- Set to max and freeze your stamina
+- Set to purple and freeze your sharpness
+- Max long sword gauge after one hit
+- Make long sword glow red after first spirit-4 hit (Still, an unknown bug make the red gauge overflow)
 
 Usage:
 Copy file cheat.plg to /plugin/0004000000126300/ in microsd card, boot to NTR and press SELECT during the hunt to enable cheats. Press SELECT again during hunt and the cheats is off. After a mission, the cheats also automatically off. Press SELECT anytime outside the hunt the plugin do nothing.
