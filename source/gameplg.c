@@ -34,6 +34,10 @@ int checkPointerValid(pointer){
 	return (pointer > 0x08000000) && (pointer < 0x0A000000);
 }
 
+int checkStartOffsetValid(pointer){
+	return (pointer > 0x08920000) && (pointer < 0x08930000);
+}
+
  // void itoa_reverse(u8 s[])
  // {
  //   int c, i, j;
@@ -82,6 +86,7 @@ u8 longswordGauge = 0;
 u32 pointer0 = 0x081C7D00;
 u32 pointer1 = 0;
 u32 start_offset = 0;
+u16 Sharpness = 0;
 
 void gamePluginEntry() {
 	u32 ret, key;
@@ -117,14 +122,15 @@ void gamePluginEntry() {
 			pointer1 = READU32(pointer0);
 			if (checkPointerValid(pointer1)){
 				start_offset = READU32(pointer1 + 0xE28) - 0x14030;
-				if (checkPointerValid(start_offset)){
+				if (checkStartOffsetValid(start_offset)){
 					int i = 0;
 					//monsterHP
 					monsterHP = READU16(start_offset + 0x14418);
 					//Sharpness
-					WRITEU16(start_offset + 0x94C6,0x1C2);
-					WRITEU16(start_offset + 0x94C4,0x1C2);
+					Sharpness = READU16(start_offset + 0x94C6);
+					WRITEU16(start_offset + 0x94C4,Sharpness);
 					//Stamina
+
 					WRITEU16(start_offset + 0x11E,0x4461);
 					WRITEU16(start_offset + 0x122,0x4461);
 					//Long Sword
