@@ -75,7 +75,15 @@
 			"file": "source/gameplg.c",
 			"settings":
 			{
-				"buffer_size": 1252,
+				"buffer_size": 4154,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build.py",
+			"settings":
+			{
+				"buffer_size": 1276,
 				"line_ending": "Windows"
 			}
 		}
@@ -117,14 +125,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/3DS/NTR Cheat Plugin/Zelda",
-		"/D/3DS/NTR Cheat Plugin/Zelda/Debug",
-		"/D/3DS/NTR Cheat Plugin/Zelda/include",
-		"/D/3DS/NTR Cheat Plugin/Zelda/obj/Win32",
-		"/D/3DS/NTR Cheat Plugin/Zelda/source"
+		"/D/Work/ntr-mh4u-cheat-plugin",
+		"/D/Work/ntr-mh4u-cheat-plugin/include",
+		"/D/Work/ntr-mh4u-cheat-plugin/include/libntrplg",
+		"/D/Work/ntr-mh4u-cheat-plugin/source"
 	],
 	"file_history":
 	[
+		"/D/Hex-Rays_IDA_Pro_v6.6_Incl_Decompiler_SDK_Utils_And_Patch_Repack-TOYKIT/TOYKIT.nfo",
 		"/D/3DS/NTR Cheat Plugin/ntr_mh4u/source/main.c",
 		"/D/3DS/NTR Cheat Plugin/ntr_mh4u/source/entry.c",
 		"/D/3DS/NTR Cheat Plugin/ntr_helloworld-master/source/bootloader.s",
@@ -209,7 +217,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -224,6 +232,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"a.out",
 			"memlayout",
 			"ARCA12345",
 			"ZHPU12345",
@@ -311,18 +320,18 @@
 				{
 					"buffer": 0,
 					"file": "source/gameplg.c",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1252,
+						"buffer_size": 4154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1252
+								2293,
+								2293
 							]
 						],
 						"settings":
@@ -330,11 +339,39 @@
 							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 180.0,
+						"translation.x": 0.0,
+						"translation.y": 319.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
