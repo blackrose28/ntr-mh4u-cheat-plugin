@@ -9,6 +9,8 @@ Press SELECT + UP:
 - Display the first large monster's HP as first item's quantity in item pouch. Just set first item on lower screen item shortcut to view main monster's HP at all time during the hunt.
 - Set to max and freeze your stamina
 - Freeze your sharpness
+- Infinite wystone time
+- Infinite your virus fighting duration
 Press SELECT + R + UP:
 - Max long sword gauge after one hit
 - Make long sword glow red after first spirit-4 hit (Still, the timer from the white glow make the red gauge overflow)
