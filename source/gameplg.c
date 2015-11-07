@@ -51,7 +51,7 @@ u32 insectGlaiveEnabled = 0;
 u32 rebirthEnable = 0;
 u32 skillEditModeEnabled = 0;
 u16 skillTest = 0;
-u8 skillEditIndex = 19;
+u8 skillEditIndex = 0;
 u8 skillEditInc = 0;
 u8 skillEditDec = 0;
 u8 skillEditInc10 = 0;
@@ -143,11 +143,11 @@ void gamePluginEntry() {
 					skillEditIndex++;
 					waitKeyUp();
 					break;
-				case BUTTON_DU:
+				case BUTTON_DU + BUTTON_Y:
 					skillEditInc = 1;
 					waitKeyUp();
 					break;
-				case BUTTON_DD:
+				case BUTTON_DD + BUTTON_Y:
 					skillEditDec = 1;
 					waitKeyUp();
 					break;
